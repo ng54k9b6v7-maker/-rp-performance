@@ -1,0 +1,1 @@
+const p=document.getElementById('pain'),c=document.getElementById('conf');function u(){pv.textContent=' '+p.value+'/10';cv.textContent=' '+c.value+'/10';}p.value=localStorage.pain||0;c.value=localStorage.conf||0;u();p.oninput=c.oninput=u;function save(){localStorage.pain=p.value;localStorage.conf=c.value;alert('Saved');}
